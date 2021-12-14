@@ -5,7 +5,7 @@ import UserAuth from "./UserAuth";
 
 function App() {
   return (
-    <div className="container p-5">
+    <div className="container p-2">
       <Router>
         <Routes>
           <Route path="/" element={<UserAuth />} />
